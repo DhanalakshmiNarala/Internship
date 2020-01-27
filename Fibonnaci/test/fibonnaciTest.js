@@ -23,5 +23,4 @@ describe('Fibonnaci numbers', () => {
         let expectedResult = 53316291173;
         fibonnaciNumbers(53, 53).should.deep.equal([expectedResult]);
     })
-
 })

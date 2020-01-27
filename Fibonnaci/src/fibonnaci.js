@@ -5,11 +5,16 @@ const fibonnaciNumbers = (rangeStart, rangeEnd)=> {
     return result;
 }
 
-const nthFibonnaciNumber = (n)=> {
-    if(n == 1 || n == 2)
-        return 1;
-    return nthFibonnaciNumber(n - 1) + nthFibonnaciNumber(n - 2);
-}
+const fibonnaciList = [];
 
+const nthFibonnaciNumber = (n)=> {
+    if(fibonnaciList[n])
+        return fibonnaciList[n];
+    if(n == 1 || n == 2)
+        fibonnaciList[n] = 1;
+    else
+        fibonnaciList[n] = nthFibonnaciNumber(n - 1) + nthFibonnaciNumber(n - 2);
+    return fibonnaciList[n];
+}
 
 module.exports = fibonnaciNumbers;
