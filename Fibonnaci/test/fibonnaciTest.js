@@ -9,4 +9,8 @@ describe('Fibonnaci numbers', () => {
     it('should return 1 for second fibonnaci number', () => {
         fibonnaciNumbers(2, 2).should.deep.equal([1])
     })
+
+    it('should return 8 form 6th fibonnaci number', () => {
+        fibonnaciNumbers(8, 8).should.deep.equal([21])
+    })
 })
