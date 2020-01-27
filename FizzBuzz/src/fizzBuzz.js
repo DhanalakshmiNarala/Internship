@@ -7,10 +7,12 @@ const fizzBuzz = (startRange, endRange)=> {
 }
 
 const getText = (num)=> {
+    if(num % 3 == 0 && num % 5 == 0)
+        return "Fizz Buzz"
     if(num % 3 == 0)
-        return "fizz"
+        return "Fizz"
     if(num % 5 == 0)
-        return "buzz"
+        return "Buzz"
 }
 
 module.exports = fizzBuzz
