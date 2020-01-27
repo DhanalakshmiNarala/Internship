@@ -5,4 +5,8 @@ describe('Prime numbers', () => {
     it('should return true for number 3', () => {
         isPrimeNumber(3).should.be.true;
     })
+
+    it('should return true for prime number 9999999967', () => {
+        isPrimeNumber(9999999967).should.be.true;
+    })
 })
