@@ -4,7 +4,7 @@
   "description": "TDD assignment",
   "main": "index.js",
   "scripts": {
-    "test": "mocha || true"
+    "test": "mocha FizzBuzz/test/fizzBuzzTest.js"
   },
   "repository": {
     "type": "git",
