@@ -1,0 +1,23 @@
+{
+  "name": "internship",
+  "version": "1.0.0",
+  "description": "TDD assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DhanalakshmiNarala/Internship.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DhanalakshmiNarala/Internship/issues"
+  },
+  "homepage": "https://github.com/DhanalakshmiNarala/Internship#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  }
+}
