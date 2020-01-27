@@ -1,18 +1,19 @@
-const fizzBuzz = (startRange, endRange)=> {
-    let result = []
+const fizzBuzz = (startRange, endRange) => {
+    let result = [];
     for(let num = startRange; num <= endRange; num++) {
-        result.push(getText(num))
+        result.push(getText(num));
     }
-    return result
+    return result;
 }
 
-const getText = (num)=> {
+const getText = (num) => {
     if(num % 3 == 0 && num % 5 == 0)
-        return "Fizz Buzz"
+        return 'Fizz Buzz';
     if(num % 3 == 0)
-        return "Fizz"
+        return 'Fizz';
     if(num % 5 == 0)
-        return "Buzz"
+        return 'Buzz';
+    return num;
 }
 
-module.exports = fizzBuzz
+module.exports = fizzBuzz;
